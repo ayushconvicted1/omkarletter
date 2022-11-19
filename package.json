@@ -1,0 +1,22 @@
+{
+  "name": "newsletter-signup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "server": "NODE_ENV=development ./node_modules/.bin/netlify-lambda server src",
+    "build": "NODE_ENV=production ./node_modules/.bin/netlify-lambda server src"
+  },
+  "author": "Ayush Pandey",
+  "license": "ISC",
+  "dependencies": {
+    "@mailchimp/mailchimp_marketing": "^3.0.80",
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "gitignore": "^0.7.0",
+    "mailchimp": "^1.2.1",
+    "netlify-lambda": "^2.0.15",
+    "request": "^2.88.2",
+    "require": "^2.4.20"
+  }
+}
